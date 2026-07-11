@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="icon" href="https://j-s-yt.github.io/J-S-Y/jose.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow - JSY H3NT4I</title>
+  <meta name="description" content="Assista H3NT4I online dublados e legendados gratuitamente.">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta property="og:title" content="Overflow - JSY H3NT4I">
+  <meta property="og:description" content="H3NT4I online grátis em português, com qualidade e sem anúncios invasivos.">
+  <meta property="og:image" content="https://cdn.myanimelist.net/images/anime/1781/104461l.jpg">
+  <meta property="og:url" content="https://bit.ly/J-S-Y">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../0/an.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="menu">
+    <div class="logo">
+      <a href="https://j-s-h3.github.io/" class="logo-link">JSY H3NT4I</a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="menu-links" id="menu-links">
+      <li><a href="https://j-s-h3.github.io/">Início</a></li>
+      <li><a href="https://j-s-h3.github.io/Lançamentos.html">Lançamentos</a></li>
+      <li><a href="https://j-s-h3.github.io/lista-anime.html">Lista de Anime</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="anime-info">
+      <img src="https://cdn.myanimelist.net/images/anime/1781/104461l.jpg" alt="Overflow">
+    </div>
+
+
+    <div class="info-wrapper">
+      <div class="info-box">
+        <h2>Overflow</h2>
+        <p><span>Tipo:</span> ONA<br>
+          <span>Episódios:</span> 8<br>
+          <span>Estado:</span> Acabamento de arejamento<br>
+          <span>Exibição:</span> 6 de janeiro de 2020 a 24 de fevereiro de 2020<br>
+          <span>Estúdio:</span> Studio HokiboshiI<br>
+          <span>Fonte:</span> Mangá<br>
+          <span>Gênero:</span> Hentai<br>
+          <span>Duração:</span> 23 min.<br>
+          <span>Classificação:</span> Rx - Hentai
+        </p>
+
+        <div class="btn-row">
+          <a href="https://myanimelist.net/anime/40746/Overflow" class="mal-btn">MyAnimeList</a>
+          <button class="sinopse-btn" onclick="toggleSinopse(this)">SINOPSE...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sinopse" class="sinopse-box">
+    <p>
+      Kazushi Sudou é um estudante universitário que recebe a visita de suas duas amigas de infância, as irmãs Ayane e
+      Kotone Shirakawa. Quando Ayane descobre que Kazushi não só esqueceu de comprar seu pudim, como também está usando
+      seu creme especial no banho, ela decide se vingar e se juntar a Kazushi no banho junto com Kotone. Será que o
+      pervertido Kazushi conseguirá permanecer indiferente a ambos?
+    </p>
+  </div>
+
+  <h3 class="section-title">LEGENDADO</h3>
+  <a href="#" class="video-btn">JSY H3NT4I</a>
+
+  <h3 class="section-title">DUBLADO</h3>
+  <a href="#" class="video-btn">JSY H3NT4I</a>
+
+  <!-- POPUP TRAILER -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <button class="close-popup" onclick="fecharTrailer()">X</button>
+      <iframe id="trailerVideo" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    function toggleSinopse(btn) {
+      const box = document.getElementById("sinopse");
+      box.classList.toggle("show");
+      btn.textContent = box.classList.contains("show") ? "FECHAR SINOPSE" : "SINOPSE...";
+    }
+
+    // Toggle menu mobile
+    document.getElementById("menu-toggle").onclick = () =>
+      document.getElementById("menu-links").classList.toggle("active");
+  </script>
+
+  <!-- Rodapé -->
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.body.insertAdjacentHTML('beforeend', data);
+      });
+  </script>
+
+  <script src="https://j-s-h3.github.io/idade-verificacao.js"></script>
+
+</body>
+
+</html>
