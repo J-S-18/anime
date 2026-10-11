@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="icon" href="https://j-s-yt.github.io/J-S-Y/jose.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Summoner to Dekiteiru - JSY 18</title>
+  <meta name="description" content="Assista H3NT4I online dublados e legendados gratuitamente.">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta property="og:title" content="Dark Summoner to Dekiteiru - JSY 18">
+  <meta property="og:description" content="H3NT4I online grátis em português, com qualidade e sem anúncios invasivos.">
+  <meta property="og:image" content="https://cdn.myanimelist.net/images/anime/1357/159860l.jpg">
+  <meta property="og:url" content="https://bit.ly/J-S-Y">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../0/an.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="menu">
+    <div class="logo">
+      <a href="https://j-s-18.github.io/" class="logo-link">JSY 18</a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="menu-links" id="menu-links">
+      <li><a href="https://j-s-18.github.io/">🏠 Início</a></li>
+      <li><a href="https://j-s-18.github.io/calendario.html">📅 Calendário</a></li>
+      <li><a href="https://j-s-18.github.io/Lançamentos.html">🎬 Lançamentos</a></li>
+      <li><a href="https://j-s-18.github.io/lista-anime.html">🔍 Lista de Anime</a></li>
+      <li><a href="https://j-s-18.github.io/Corrigir-Episodio.html">🛠️ Corrigir Episódio</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="anime-info">
+      <img src="https://cdn.myanimelist.net/images/anime/1357/159860l.jpg" alt="Dark Summoner to Dekiteiru">
+    </div>
+
+
+    <div class="info-wrapper">
+      <div class="info-box">
+        <h2>Dark Summoner to Dekiteiru</h2>
+        <p><span>Tipo:</span> ONA<br>
+          <span>Episódios:</span> 12<br>
+          <span>Estado:</span> Atualmente ao ar<br>
+          <span>Exibição:</span> 5 de outubro de 2026 até ?<br>
+          <span>Estúdio:</span> AtoriE<br>
+          <span>Fonte:</span> mangá web<br>
+          <span>Gênero:</span> Comédia, Fantasia, Erotica<br>
+          <span>Duração:</span> 12 min. por episódio.<br>
+          <span>Classificação:</span> R+ - Nudez Leve
+        </p>
+
+        <div class="btn-row">
+          <a href="https://myanimelist.net/anime/63509/Dark_Summoner_to_Dekiteiru" class="mal-btn">MyAnimeList</a>
+          <button class="sinopse-btn" onclick="toggleSinopse(this)">SINOPSE...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sinopse" class="sinopse-box">
+    <p>
+      Amona, uma invocadora das trevas e semi-humana que usa poderes demoníacos, é a mais nova adição ao grupo do rígido sacerdote Roni. Todos esperavam que os dois não gostassem um do outro e não tivessem nada a ver um com o outro. Mas, para surpresa deles, no primeiro dia juntos como grupo de aventureiros, tiveram uma noite só...!
+
+(Fonte: Kadokawa, traduzido)
+    </p>
+  </div>
+
+  <h3 class="section-title">LEGENDADO</h3>
+  <a href="https://j-s-18.github.io/episodio/Dark-Summoner/ona-1/legendado/menu.html" class="video-btn">JSY 18</a>
+
+  <!-- POPUP TRAILER -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <button class="close-popup" onclick="fecharTrailer()">X</button>
+      <iframe id="trailerVideo" src="#" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    function toggleSinopse(btn) {
+      const box = document.getElementById("sinopse");
+      box.classList.toggle("show");
+      btn.textContent = box.classList.contains("show") ? "FECHAR SINOPSE" : "SINOPSE...";
+    }
+
+    // Toggle menu mobile
+    document.getElementById("menu-toggle").onclick = () =>
+      document.getElementById("menu-links").classList.toggle("active");
+  </script>
+
+  <!-- Rodapé -->
+  <script>
+    fetch('../footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.body.insertAdjacentHTML('beforeend', data);
+      });
+  </script>
+
+  <!--<script src="https://j-s-18.github.io/idade-verificacao.js"></script>-->
+
+</body>
+
+</html>
